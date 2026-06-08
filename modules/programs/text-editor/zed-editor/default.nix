@@ -6,8 +6,7 @@
 	home-manager = {
 		extraSpecialArgs = {inherit inputs vars;};
 		users.${vars.user.name} = {...}: {
-			# ========= HYPRLAND =========
-			wayland.windowManager.hyprland = {
+			programs.zed-editor = {
 				enable = true;
 			};
 		};
