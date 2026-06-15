@@ -1,6 +1,6 @@
 {
-	user = "f";
-	host = "p";
+	user = "alice";
+	host = "inWonderLand";
 	hardware = {
 		boot = {
 			loader = "limine"; # GRUB LIMINE
@@ -25,7 +25,7 @@
 				};
 			};
 			output = {
-				rate.value = 96000;
+				rate.value = 48000;
 				format = {
 					prefix = "S"; # F S
 					value = 32;
